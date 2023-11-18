@@ -7,31 +7,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="../images/favicon.svg">
     <link href="../dist/output.css" rel="stylesheet">
 
-    <title>CV - HighNitin</title>
+    <title>CV - HighNitin (Tailwind CSS) 🚀</title>
 
 </head>
 
-<body>
-    <main class="bg-black text-white p-5">
+<body class="bg-black selection:bg-orange-200 selection:text-gray-950">
+    <main class=" text-gray-100 px-5">
         <!-- Section created to demonstrate introduction -->
-        <header class="center">
-            <h1>Nitin Joshi</h1>
-            <p>Tech VA & Web Developer</p>
+        <header class="flex flex-col gap-5 justify-center items-center mb-8 pb-3 border-b-2 border-gray-100">
+            <h1 class="text-orange-600 text-5xl font-medium mt-5 underline">Nitin Joshi</h1>
+            <p class="text-2xl">Tech VA & Web Developer</p>
             <!-- https://www.linkedin.com/in/highnitin -->
-            <div class="center">
-                <span><a href="mailto:meet@highnitin.com" target="_blank">meet@highnitin.com</a></span>
-                <span>| <a href="tel:+910000000000" target="_blank">+910000000000</a></span>
-                <span>|
-                    <a href="https://www.google.com/search?q=highnitin&newwindow=1" target="_blank">HighNitin</a></span>
+            <div class="flex flex-wrap justify-center items-center ">
+                <a class="text-orange-600" href="mailto:meet@highnitin.com" target="_blank">meet@highnitin.com &nbsp;</a>
+                <span>|</span>
+                <a class="text-orange-600" href="tel:+910000000000" target="_blank">&nbsp; +910000000000 &nbsp;</a>
+                <span>|</span>
+                <a class="text-orange-600" href="https://www.google.com/search?q=highnitin&newwindow=1" target="_blank">&nbsp;HighNitin&nbsp;</a>
             </div>
-            <hr>
         </header>
         <!-- Section created to demonstrate summary -->
         <section class="summary">
-            <h2><u>Summary</u></h2>
-            <p>
+            <h2 class="text-orange-600 text-3xl font-medium my-5"><u>Summary</u></h2>
+            <p class="md:text-xl">
                 I craft punchy, personality-packed converting website design for digital
                 coaches & other businesses across the web along with business
                 automation. What makes me different? For nearly two years, I’ve been in
@@ -43,141 +44,158 @@
         </section>
         <!-- Section created to demonstrate experience -->
         <section class="experience">
-            <h2><u>Experience</u></h2>
-            <article class="article">
-                <div class="paddingClass">
-                    <span style="font-weight: bold; font-size: 18px;">
+            <h2 class="text-orange-600 text-3xl font-medium my-5"><u>Experience</u></h2>
+            <article class="flex flex-col gap-10 md:flex-row">
+                <div class="flex flex-col gap-2 bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/3">
+                    <span class="font-bold text-lg">
                         Cena Care | Freelance Web Developer
-                    </span><br>
-                    <span>Sep 2022 - Nov 2022</span>
-                    <h4>Key responsibilities:</h4>
-                    <ul>
-                        <li>Create & deploy fully functional & scalable eCom project.</li>
-                        <li>Setup hosting and domain as per requirements.</li>
-                        <li>Create wireframe & deploy project in the 3-phase method.</li>
-                        <li>Theme and plugins installation, design implementation.</li>
-                        <li>Custom code implementation with changing requirements.</li>
-                    </ul>
+                    </span>
+                    <span class="italic text-base">Sep 2022 - Nov 2022</span>
+                    <span class="">
+                        <h4 class="font-bold mb-3">Key responsibilities:</h4>
+                        <ul class="list-disc pl-6 pr-3">
+                            <li>Create & deploy fully functional & scalable eCom project.</li>
+                            <li>Setup hosting and domain as per requirements.</li>
+                            <li>Create wireframe & deploy project in the 3-phase method.</li>
+                            <li>Theme and plugins installation, design implementation.</li>
+                            <li>Custom code implementation with changing requirements.</li>
+                        </ul>
+                    </span>
                 </div>
-                <div class="paddingClass">
-                    <span style="font-weight: bold; font-size: 18px;">
+                <div class="flex flex-col gap-2 bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/3">
+                    <span class="font-bold text-lg">
                         Cena Care | Freelance Web Developer
-                    </span><br>
-                    <span>Sep 2022 - Nov 2022</span>
-                    <h4>Key responsibilities:</h4>
-                    <ul>
-                        <li>Create & deploy fully functional & scalable eCom project.</li>
-                        <li>Setup hosting and domain as per requirements.</li>
-                        <li>Create wireframe & deploy project in the 3-phase method.</li>
-                        <li>Theme and plugins installation, design implementation.</li>
-                        <li>Custom code implementation with changing requirements.</li>
-                    </ul>
+                    </span>
+                    <span class="italic text-base">Sep 2022 - Nov 2022</span>
+                    <span class="">
+                        <h4 class="font-bold mb-3">Key responsibilities:</h4>
+                        <ul class="list-disc pl-6 pr-3">
+                            <li>Create & deploy fully functional & scalable eCom project.</li>
+                            <li>Setup hosting and domain as per requirements.</li>
+                            <li>Create wireframe & deploy project in the 3-phase method.</li>
+                            <li>Theme and plugins installation, design implementation.</li>
+                            <li>Custom code implementation with changing requirements.</li>
+                        </ul>
+                    </span>
                 </div>
-                <div class="paddingClass">
-                    <span style="font-weight: bold; font-size: 18px;">
+                <div class="flex flex-col gap-2 bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/3">
+                    <span class="font-bold text-lg">
                         Cena Care | Freelance Web Developer
-                    </span><br>
-                    <span>Sep 2022 - Nov 2022</span>
-                    <h4>Key responsibilities:</h4>
-                    <ul>
-                        <li>Create & deploy fully functional & scalable eCom project.</li>
-                        <li>Setup hosting and domain as per requirements.</li>
-                        <li>Create wireframe & deploy project in the 3-phase method.</li>
-                        <li>Theme and plugins installation, design implementation.</li>
-                        <li>Custom code implementation with changing requirements.</li>
-                    </ul>
-                </div>
+                    </span>
+                    <span class="italic text-base">Sep 2022 - Nov 2022</span>
+                    <span class="">
+                        <h4 class="font-bold mb-3">Key responsibilities:</h4>
+                        <ul class="list-disc pl-6 pr-3">
+                            <li>Create & deploy fully functional & scalable eCom project.</li>
+                            <li>Setup hosting and domain as per requirements.</li>
+                            <li>Create wireframe & deploy project in the 3-phase method.</li>
+                            <li>Theme and plugins installation, design implementation.</li>
+                            <li>Custom code implementation with changing requirements.</li>
+                        </ul>
+                    </span>
+                </div>      
             </article>
         </section>
         <!-- Section created to demonstrate education -->
         <section class="education">
-            <h2><u>Education</u></h2>
-            <article class="article">
+            <h2 class="text-orange-600 text-3xl font-medium my-5"><u>Education</u></h2>
+            <article class="flex flex-col gap-10 md:flex-row">
                 <!-- justify-content: flex-start; -->
-                <div class="paddingClass">
-                    <span style="font-weight: bold; font-size: 18px;">
+                <div class="flex flex-col gap-2 bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/3">
+                    <span class="font-bold text-lg">
                         Software Engineering | 100X Engineers
-                    </span><br>
-                    <span>Sep 2023 - Nov 2023</span>
-                    <h4>Key responsibilities:</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                    </ul>
+                    </span>
+                    <span class="italic text-base">Sep 2023 - Nov 2023</span>
+                    <span class="">
+                        <h4 class="font-bold mb-3">Key responsibilities:</h4>
+                        <ul class="list-disc pl-6 pr-3">
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                        </ul>
+                    </span>
                 </div>
-                <div class="paddingClass">
-                    <span style="font-weight: bold; font-size: 18px;">
-                        Full Stack Development | Crio.do
-                    </span><br>
-                    <span>Jul 2022 - May 2023</span>
-                    <h4>Key responsibilities:</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-
-                    </ul>
-                </div>
-                <div class="paddingClass">
-                    <span style="font-weight: bold; font-size: 18px;">
+               
+                <div class="flex flex-col gap-2 bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/3">
+                    <span class="font-bold text-lg">
                         BCA | CPC College
-                    </span><br>
-                    <span>Jul 2017 - Apr 2019</span>
-                    <h4>Key responsibilities:</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit, amet consectetur.</li>
-                    </ul>
+                    </span>
+                    <span class="italic text-base">Jul 2017 - Apr 2019</span>
+                    <span class="">
+                        <h4 class="font-bold mb-3">Key responsibilities:</h4>
+                        <ul class="list-disc pl-6 pr-3">
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                        </ul>
+                    </span>
                 </div>
+
+                <div class="flex flex-col gap-2 bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/3">
+                    <span class="font-bold text-lg">
+                        Full Stack Development | Crio.do
+                    </span>
+                    <span class="italic text-base">Jul 2022 - May 2023</span>
+                    <span class="">
+                        <h4 class="font-bold mb-3">Key responsibilities:</h4>
+                        <ul class="list-disc pl-6 pr-3">
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur.</li>
+                        </ul>
+                    </span>
+                </div>
+              
             </article>
         </section>
         <!-- Section created to demonstrate skills -->
         <section class="skills">
-            <h2><u>Skills</u></h2>
-            <article class="article">
-                <div class="paddingClassFiveteen">
-                    <img src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
-                    <h4 class="center">Wordpress</h4>
-                </div>
-                <div class="paddingClassFiveteen">
-                    <img src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
-                    <h4 class="center">Wordpress</h4>
-                </div>
-                <div class="paddingClassFiveteen">
-                    <img src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
-                    <h4 class="center">Wordpress</h4>
-                </div>
-                <div class="paddingClassFiveteen">
-                    <img src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
-                    <h4 class="center">Wordpress</h4>
-                </div>
-
-
+            <h2 class="text-orange-600 text-3xl font-medium my-5"><u>Skills</u></h2>
+            <article class="flex flex-row flex-wrap gap-10 md:flex-row md:gap-5 md:flex-nowrap">
+                <span class="flex flex-col gap-4 justify-center items-center w-full bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/4"> 
+                    <img class="w-52" src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
+                    <h4 class="text-1xl font-medium">Wordpress</h4>
+                </span>
+                <span class="flex flex-col gap-4 justify-center items-center w-full bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/4"> 
+                    <img class="w-52" src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
+                    <h4 class="text-1xl font-medium">Wordpress</h4>
+                </span>
+                <span class="flex flex-col gap-4 justify-center items-center w-full bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/4"> 
+                    <img class="w-52" src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
+                    <h4 class="text-1xl font-medium">Wordpress</h4>
+                </span>
+                <span class="flex flex-col gap-4 justify-center items-center w-full bg-orange-50 text-black hover:bg-zinc-800 hover:text-orange-300 border-2 border-orange-500 rounded-md p-5 md:w-1/4"> 
+                    <img class="w-52" src="https://wpcom.files.wordpress.com/2023/06/wordpress-dark-blue-logo.png" alt="">
+                    <h4 class="text-1xl font-medium">Wordpress</h4>
+                </span>
             </article>
         </section>
 
         <!-- Section created to demonstrate contact -->
         <section class="contact" id="form">
-            <h2><u>Contact</u></h2>
-            <form method="post" action="#form">
-
-                <input type="text" name="collectName" id="collectName" placeholder="Enter your name">
-                <br>
-                <input type="email" name="collectEmail" id="collectEmail" placeholder="meet@highnitin.com">
-                <br>
-                <input type="tel" name="collectphone" id="collectphone" placeholder="+910000000000">
-                <br>
-                <textarea rows="3" cols="28" placeholder="Hello Developer, how's it goin?"
-                    id="collectMessage"></textarea>
-
-                <!-- <textarea name="" id="" cols="30" rows="10">Heloo</textarea> -->
-                <br> <br>
-                <input type="reset" value="Reset">
-                <input type="submit" value="Submit">
-            </form>
+            <h2 class="text-orange-600 text-3xl font-medium my-5"><u>Contact</u></h2>
+            <span class="">
+                <form class="flex flex-col gap-5 bg-black text-white rounded-md px-3" method="post" action="#">
+                    
+                    <input class="p-5 border-2 border-gray-50 bg-black rounded-md focus:outline-none focus:border-2 focus:border-orange-200" type="text" name="collectName" id="collectName" placeholder="John Wick">
+                    <input class="p-5 border-2 border-gray-50 bg-black rounded-md focus:outline-none focus:border-2 focus:border-orange-200" type="email" name="collectEmail" id="collectEmail" placeholder="baba@yaga.com">
+                    <input class="p-5 border-2 border-gray-50 bg-black rounded-md focus:outline-none focus:border-2 focus:border-orange-200" type="tel" name="collectphone" id="collectphone" placeholder="+910000000000">
+                    <textarea class="p-5 border-2 border-gray-50 bg-black rounded-md focus:outline-none focus:border-2 focus:border-orange-200" rows="3" cols="28" placeholder="Hello Baba Yaga, how's it goin?"
+                    id="collectMessage"></textarea>   
+                    <span class="flex justify-around">
+                        <input class="md:w-3/12 bg-orange-700 text-lg text-white px-7 py-3 rounded-full hover:bg-orange-100 hover:border-2 hover:border-orange-700 hover:text-black" type="reset" value="Reset">
+                         <input class="md:w-3/12 bg-orange-700 text-lg text-white px-7 py-3 rounded-full hover:bg-orange-100 hover:border-2 hover:border-orange-700 hover:text-black " type="submit" value="Submit" title="Submit is Disabled" disabled>
+                    </span>
+                </form>
+            </span>
         </section>
+
+        <footer class="p-5 mt-5 text-center border-t-2 border-twitter-button-stroke">
+            <span class="pt-2">
+              🚀 Crafted with curiosity | <span class="text-orange-700"> <a href="https://linkedin.com/in/highnitin" target="_blank"> HighNitin </a> </span> © 2023 ✨
+          </span>
+          </footer>
+
     </main>
 
 </body>
